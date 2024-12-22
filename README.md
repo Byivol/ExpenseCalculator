@@ -1,6 +1,12 @@
 # ExpenseCalculator
 AsyncJson ConvertToCsv.
 Example CSV : https://1drv.ms/x/c/f3922317e9a5638e/EflfUNmfGBdPlhzvXxe0g64BJxpwNsIkwQrMkUvedeIRHQ?e=ywBTAI
+
+![image](https://github.com/user-attachments/assets/344949c8-becb-427d-a1b8-2d6da798801f)
+![image](https://github.com/user-attachments/assets/98642a32-6d24-4737-8976-c46139502c4f)
+![image](https://github.com/user-attachments/assets/51451c27-1ee0-42ab-aacd-e003f9c3facb)
+
+
 ## Add
 ```C# 
 await expenseCalculatorJson.SaveToJsonAsync(new Expense("Category", 1000, DateTime.Now.AddDays(-1)));
