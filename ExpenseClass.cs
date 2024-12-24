@@ -1,10 +1,11 @@
 ﻿namespace ExpenseCalculator;
-public class Expense
+
+public class ExpenseClass
 {
     public string Category { get; set; }
     public double Cost { get; set; }
     public DateTime DateTime { get; set; }
-    public Expense(string Category,double cost,DateTime dateTime)
+    public ExpenseClass(string Category,double cost,DateTime dateTime)
     {
         this.Category = Category; this.Cost = cost; this.DateTime = dateTime;
     }
